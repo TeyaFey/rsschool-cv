@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+  --highlight-color: #892b57;
+}
+* {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+h3 {
+  color: var(--highlight-color);
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*header*/
+.header {
+  display: flex;
+}
+.header_photo {
+  display: flex;
+}
+.header_info {
+  display: flex;
+  flex-direction: column;
+}
+.header_name {
+  font-size: 30px;
+  color: var(--highlight-color);
+  text-transform: uppercase;
+  margin: auto;
+  align-items: center;
+}
+
+.header__links {
+  position: fixed;
+  width: 100%;
+  background-color: var(--highlight-color);
+  height: 70px;
+}
+
+.nav_link {
+  text-decoration: none;
+  transition: color 0.2s linear;
+  text-transform: uppercase;
+  margin: 0 20px;
+}
+
+.nav_link:hover {
+  color: var(--highlight-color);
+}
+
+.about_me {
+  margin-top: 30px;
+}
+.personal_info {
+  margin: 0;
+}
+.both_sides {
+  display: flex;
+  margin-top: 30px;
+}
+/*************************left_side************************************/
+/*contacts*/
+.left_side {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.contact_container {
+  margin-bottom: 15px;
+  padding-left: 0;
+  margin-top: 0;
+}
+.contact__item {
+  display: flex;
+  align-items: center;
+}
+.contact__text {
+  margin: 10px;
+}
+
+/*education*/
+.education__list {
+  list-style: none;
+}
+
+.data {
+  background-color: var(--highlight-color);
+  display: inline-block;
+  padding: 5px;
+}
+
+.experience__date {
+  color: white;
+}
+.education__date {
+  color: white;
+}
+.language_level {
+  color: white;
+}
+
+/*************************right_side************************************/
+.right_side {
+  width: 60%;
+  display: block;
+}
+
+.job_title {
+  font-style: italic;
+}
+.project_item {
+  padding-right: 35px;
+}
+.project_item_link {
+  display: flex;
+  text-decoration: none;
+  flex-direction: column;
+}
+.project_item_link__img {
+  height: 113px;
+}
+.project_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*************************footer************************************/
+.footer {
+  background-color: var(--highlight-color);
+  margin-top: 30px;
+}
+
+.footer_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__item {
+  margin: 20px;
+}
+.footer_year {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.img_only {
+  width: 100px;
+}
+.footer__item,
+.footer__item a {
+  color: white;
+  text-decoration: none;
+}
+.social_link {
+  display: flex;
+  align-items: center;
+}
+.social_link__text {
+  margin-left: 10px;
+}
