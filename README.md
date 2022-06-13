@@ -1,1 +1,1 @@
-https://teyafey.github.io/rsschool-cv/cv
+https://TeyaFey.github.io/rsschool-cv/
